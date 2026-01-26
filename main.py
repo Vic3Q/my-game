@@ -14,7 +14,7 @@ def main():
         log_state()
         for event in pygame.event.get():
             pass
-        pygame.fill("black")
+        screen.fill("black")
         pygame.display.flip()
         
 
