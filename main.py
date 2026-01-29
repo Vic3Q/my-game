@@ -29,6 +29,7 @@ def main():
 
         player = Player(x, y)
         player.draw(screen)
+        player.update(dt)
 
     
         
